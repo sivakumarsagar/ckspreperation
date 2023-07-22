@@ -1,5 +1,5 @@
 ETCD HTTPS:
-
+(video15)
 1) apt-get -y install wget
 2) mkdir /root/binaries
    cd /root/binaries
@@ -15,4 +15,4 @@ ETCD HTTPS:
 
 CERTIFICATE AUTHORITY:
 https://github.com/zealvora/certified-kubernetes-security-specialist/blob/main/domain-1-cluster-setup/configure-ca.md
-https://github.com/zealvora/certified-kubernetes-security-specialist/blob/main/domain-1-cluster-setup/apiserver-transit-encryption.md
+https://github.com/zealvora/certified-kubernetes-security-specialist/blob/main/domain-1-cluster-setup/apiserver-transit-encryption.md (video 15)
