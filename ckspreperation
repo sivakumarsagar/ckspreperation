@@ -12,3 +12,6 @@ ETCD HTTPS:
 6) ETCDCTL_API=3 etcdctl --endpoints==https://127.0.0.1:2379 --insecure-tls-skip-verify --insecure-transport=false --cert=client.crt --key=client.key get course
 7) To monitor logs of etcd
    tcpdump -i lo -x port 2379
+
+CERTIFICATE AUTHORITY:
+https://github.com/zealvora/certified-kubernetes-security-specialist/blob/main/domain-1-cluster-setup/configure-ca.md
