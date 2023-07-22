@@ -8,3 +8,4 @@ ETCD HTTPS:
    cd etcd-v3.5.4-linux-amd64
    cp etcd etcdctl /usr/local/bin/
 4) etcd --cert-file=etcd.crt --key-file=etcd.key --advertise-client-urls=https://127.0.0.1:2379 --client-cert-auth --trusted-ca-file=ca.crt --key-file=etcd.key --listen-client-urls=https://127.0.0.1:2379
+5) ETCDCTL_API=3 etcdctl --endpoints==https://127.0.0.1:2379 --insecure-tls-skip-verify --insecure-transport=false --cert=client.crt --key=client.key get course
